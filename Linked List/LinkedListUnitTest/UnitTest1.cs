@@ -1,5 +1,8 @@
 using System;
 using Xunit;
+using LinkedList;
+using LinkedList.Classes;
+
 
 namespace LinkedListUnitTest
 {

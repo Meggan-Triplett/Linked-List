@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Linked_List.Classes
+namespace LinkedList.Classes
 {
     class LinkList
     {
@@ -53,7 +53,7 @@ namespace Linked_List.Classes
 
             while (current != null)
             {
-                Console.Write($"{current.Value} => ");
+                Console.Write($"{current.Value} -> ");
                 current = current.Next;
             }
 

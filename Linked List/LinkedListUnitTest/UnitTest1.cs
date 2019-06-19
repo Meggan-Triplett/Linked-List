@@ -9,8 +9,10 @@ namespace LinkedListUnitTest
     public class UnitTest1
     {
         [Fact]
-        public void Test1()
+        public void CanSucessfullyInstantiateAnEmptyLinkedList()
         {
+            LinkList list = new LinkList();
+            Assert.
 
         }
     }

@@ -4,15 +4,16 @@ using System.Text;
 
 namespace LinkedList.Classes
 {
-    class LinkList
+    public class LinkList
     {
         public Node Head { get; set; }
+        public LinkList Current { get; set; }
 
-        public LinkList(int value)
-        {
-            Node node = new Node(value);
-            Head = node;
-        }
+        //public LinkList(int value)
+        //{
+        //    Node node = new Node(value);
+        //    Head = node;
+        //}
 
         /// <summary>
         /// Creates new node and puts it at the front of the link list
@@ -40,7 +41,6 @@ namespace LinkedList.Classes
                     current = current.Next;
                 }
             }
-
             return false;
         }
 

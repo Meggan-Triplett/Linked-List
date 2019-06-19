@@ -8,12 +8,20 @@ namespace LinkedListUnitTest
 {
     public class UnitTest1
     {
-        [Fact]
-        public void CanSucessfullyInstantiateAnEmptyLinkedList()
+        //[Fact]
+        public void CanProperlyInsertIntoLinkedList()
         {
-            LinkList list = new LinkList();
-            Assert.
+            //LinkList actualList = new LinkList(5);
+            //actualList.Insert(9);
 
+            //LinkList expectedList()
+            //{
+            //    Node node = new Node(value);
+            //    Head = node;
+            //}
+
+
+            //Assert.Equal(actualList, expectedList);
         }
     }
 }

@@ -25,6 +25,25 @@ namespace Linked_List.Classes
             Head = node;
         }
 
+        public bool Includes(int value)
+        {
+            Node current = Head;
+
+            while (current != null)
+            {
+                if (current.Value == value)
+                {
+                    return true;
+                }
+                else
+                {
+                    current = current.Next;
+                }
+            }
+
+            return false;
+        }
+
         /// <summary>
         /// Display in console the value of each node in linked list
         /// </summary>
@@ -39,7 +58,6 @@ namespace Linked_List.Classes
             }
 
             Console.WriteLine("null");
-
         }
     }
 
